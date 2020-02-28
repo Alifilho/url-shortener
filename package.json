@@ -1,0 +1,33 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Simple backend url shortener made in nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alifilho/url-shortener.git"
+  },
+  "keywords": [
+    "Url-Shortener",
+    "NodeJS",
+    "Backend"
+  ],
+  "author": "Alisson Oliveira <alissonoliveiram@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alifilho/url-shortener/issues"
+  },
+  "homepage": "https://github.com/Alifilho/url-shortener#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
